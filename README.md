@@ -74,16 +74,4 @@ python app.py
 
 Then open `http://127.0.0.1:5000` in your browser.
 
-## Notes
 
-- `clean_dataset.py` can be used to preprocess `dataset.csv` and save a cleaned version as `cleaned_dataset.csv`.
-- If you want to retrain the model after additional cleaning or dataset changes, run `python train.py` again.
-
-## GitHub Push Instructions
-
-To push this project to GitHub, add a remote repository and push the `master` branch:
-
-```bash
-git remote add origin <YOUR_GITHUB_REPO_URL>
-git push -u origin master
-```
